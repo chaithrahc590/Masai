@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Submit Form Example</title>
+</head>
+<body>
+  <input type="text" id="myInput">
+  <button id="myButton">Submit</button>
+  <p id="output"></p>
+
+  <script>
+    var button = document.getElementById("myButton");
+    button.addEventListener("click", function() {
+      var input = document.getElementById("myInput");
+      var enteredValue = input.value;
+      alert("Entered value: " + enteredValue);
+
+      var output = document.getElementById("output");
+      output.innerText = "Entered value: " + enteredValue;
+    });
+  </script>
+</body>
+</html>
