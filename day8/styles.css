@@ -1,0 +1,32 @@
+.calculator {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  #display {
+    width: 100%;
+    padding: 10px;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .number, .operator, .equal, .clear {
+    background-color: #eee;
+  }
+  
+  .equal {
+    grid-column: span 2;
+  }
+  
