@@ -1,0 +1,19 @@
+#timer {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+input[type="number"] {
+  width: 50px;
+  text-align: center;
+  margin: 0 5px;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  font-size: 20px;
+  padding: 10px 20px;
+}
